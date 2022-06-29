@@ -1,0 +1,39 @@
+.welcome-area {
+	background-color: lightgray;
+	height: 30vh;
+	overflow: hidden;
+
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	grid-template-areas: 'about-me my-links';
+	justify-content: center;
+	align-content: center;
+}
+
+.about-me {
+	display: grid;
+	grid-template-columns: 0.5fr 2.5fr;
+	grid-template-areas: 'profile-pic about-info';
+	justify-content: center;
+	align-content: center;
+}
+
+
+#profile-pic {
+	height: 5em;
+
+	display: flex;
+	justify-content: center;
+}
+
+#my-picture {
+	border-radius: 50%;
+}
+
+#about-info {
+	overflow: hidden;
+}
+
+h2 {
+	text-align: center;
+}
