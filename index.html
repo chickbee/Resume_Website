@@ -6,6 +6,7 @@
 		<meta name="Author" content="Tien Phan">
 		<meta name="Viewport" content="width=display-width, initial-scale=1.0">
 
+		<link rel="stylesheet" type="text/css" href="css/html.css">
 		<link rel="stylesheet" type="text/css" href="css/header/header.css">
 		<link rel="stylesheet" type="text/css" href="css/main/main.css">
 		<link rel="stylesheet" type="text/css" href="css/footer/footer.css">
@@ -14,49 +15,72 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="welcome-page">
-				<div class="header">
-					<h1>Tien Phan</h1>
+		<div class="webpage">
+			<header>
+				<h1>Tien Phan</h1>
+			</header>
 
+			<main>
+				<div class="welcome-area">
+					<div class="about-me">
+						<h2>About Me</h2>
+						<!-- add image for profile pic -->
+						<p>about me stuff</p>
+					</div>
+
+					<div>
+						<h3>Links</h3>
+						<ul>
+							<!-- @TODO add images to content -->
+							<li>321-945-8761</li>
+							<li>Tienphan1019@gmail.com</li>
+							<li><a href="https://github.com/chickbee">Github</a></li>
+							<li>Resume</li>
+						</ul>
+					</div>
 				</div>
 
-				<div class"main-header">
-					<a class="link" href="https://github.com/chickbee" target="/blank">Github</a>
-					<p id="greeting">and this is my portfolio website</p>
+				<div class="projects">
+					<h2>Projects</h2>
 				</div>
 
-				<div class="navigation-bar">
-					<ul>
-						<li>About Me</li>
-						<li>Projects</li>
-						<li>Resume</li>
-						<li>Contact Me</li>
-					</ul>
+				<div class="Resume">
+					<div class="skills">
+						<h3>Skills</h3>
+					</div>
+
+					<div class="Education">
+						<h3>Education</h3>
+					</div>
+
+					<div class="Work History">
+						<h3>Work History</h3>
+					</div>
 				</div>
-			</div>
-		</header>
 
-		<!-- @TODO I want to have a still background and a moving block piece in the center that scrolls one content at a time. 
-			Also would like a button to scroll to the top
-		-->
-		<main>
-			<div class="main-container">
-				<section class="about-me">
-				</section>
+				<div class="contact-form">
+					<h2>Contact Me</h2>
 
-				<section class="projects">
-				</section>
+					<form>
+						<a name="contact"></a>
 
-				<section class="resume">
-				</section>
+						<label>Name</label>
+						<input class="input-field" type="text" name="name">
 
-				<section class="contact-form">
-				</section>
-			</div>
-		</main>
+						<label>Subject</label>
+						<input class="input-field" type="text" name="subject">
 
-		<!-- idk what I want to place here haha -->
+						<label>Email</label>
+						<input class="input-field" type="text" name="email">
+
+						<label>Message</label>
+						<input class="input-field" type="text" name="message">
+
+						<input id="submit-button" type="submit" value="send">	
+					</form>
+				</div>
+		</div>
+
 		<footer>
 			<p>Created by Tien Phan</p>
 		</footer>
