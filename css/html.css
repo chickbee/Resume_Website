@@ -15,7 +15,8 @@ html {
 body {
 	min-height: 100vh;
 	width: 100%;
-	border: 5px dashed red;
+	
+	/*border: 5px dashed red;*/
 	overflow: hidden;
 	background-color: rgb(255, 250, 205);
 }

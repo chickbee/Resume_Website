@@ -1,5 +1,4 @@
 .welcome-area {
-	background-color: lightgray;
 	height: 30vh;
 	overflow: hidden;
 
@@ -36,4 +35,15 @@
 
 h2 {
 	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.my-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
