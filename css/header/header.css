@@ -1,0 +1,20 @@
+.webpage {
+	margin: 10px;
+	background: rgb(210, 180, 140);
+	border: 0px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#title-header {
+	background: linear-gradient(to right, rgb(240, 255, 240), rgb(255, 218, 185), rgb(230, 230, 250));
+	border: 0px solid black;
+	border-radius: 5px 5px 0 0;
+	height: 70px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 56px;
+	color: rgb(47, 79, 79);
+
+}
